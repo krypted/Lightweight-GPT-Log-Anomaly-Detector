@@ -18,8 +18,11 @@ A number of options may need to be run in a given environment. To do so, use the
 
 ## Run the script log-analysis.py to parse log file and generate anomalous logs. Example usage:
 `python log-analysis.py --log_filename log-info-10m.txt`
+
 `python log-analysis.py --log_filename log-info-10m.txt --use_error_keywords True --score_threshold 0.5`
+
 `python log-analysis.py --log_filename log-info-10m.txt --use_error_keywords False --score_threshold 0.5`
+
 
 ## Run the script gpt.py to get chatGPT response for any log. Example usage:
 `python gpt.py --log "2023-03-06 12:51:55.328197+0530 0x20698c6  Default     0x0                  0      0    kernel: (RTBuddy) RTBuddy(DCP): WARNING: failed to send ping."`
