@@ -32,9 +32,13 @@ Python 3.6.6
 
 ## Dependencies
 appnope==0.1.3
+
 backcall==0.2.0
+
 cachetools==4.2.1
+
 certifi==2022.12.7
+
 charset-normalizer==2.0.12
 click==8.0.4
 dataclasses==0.8
